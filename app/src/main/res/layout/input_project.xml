@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:elevation="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Project"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:elevation="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="name"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/problem"
+        android:elevation="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:hint="problem"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/email"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:text="Password"/>-->
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:layout_gravity="start"
+            android:textSize="14dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:text="cancel"
+            android:elevation="10dp"
+            android:background="@color/red"/>
+        <Button
+            android:id="@+id/okBtn"
+            android:elevation="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:layout_gravity="end"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:text="Submit"
+            android:background="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>
