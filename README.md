@@ -28,7 +28,8 @@
 
 | Apk File |
 |----------------|
-| ![app-debug.apk]_(ApkFileToTest/app-debug.apk)_ |
+| Apk File to test is in ApkFileToTest folder |
+| And the password of application is "tinku" |
 
 ---
 ---
@@ -43,7 +44,6 @@
 |------------------|------------------|----------------|
 | ![screenshot6](screenshots/screenshot6.png) | ![screenshot5](screenshots/screenshot5.png) | ![screenshot1](screenshots/screenshot1.png) |
 
-> 📁 Place your screenshots inside a `screenshots/` folder in the repo root.
 
 ---
 
@@ -76,3 +76,28 @@
 1. Clone this repo:
    ```bash
    git clone https://github.com/ShyamVermaG/ProjectManager.git
+
+
+---
+
+## How to Use
+
+1.First install app
+2.Then login using password "tinku"
+3. Then create projects by click on + button 
+4. To go inside the project to create version simply click on it.
+5. if you want to update the status or view inside projects, version, task just long press on it and you will see lots of actions there.
+6. It will automatic store the changes in your file if you come back and close the app.
+7.if you want to store it manually just click on top middle button "Secure" to store all the changes.
+
+## 📥 Some Issues
+
+1. It crashed when we long click on any discussion.
+2. It will crash when we try to view inside projects.
+3. Image upload section not working.
+
+
+## we are happy if you want to contribute to our project or use it 
+Give a Hand to make this world more Comfortable.
+Thanks in Advance.
+Happy Coding.
